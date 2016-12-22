@@ -76,6 +76,7 @@ h1, h2, h3 {
   background-position: center;
   height: 330px;
   margin-top: 30px;
+  position: relative;
 }
 
   .img-title-small2 {
@@ -83,8 +84,40 @@ h1, h2, h3 {
   background-position: center;
   height: 330px;
   margin-top: 30px;
+  position: relative;
 }
 
+  .img-title-small3 {
+  background-image: url('images/photo-panier1.jpg');
+  background-position: center;
+  height: 330px;
+  margin-top: 30px;
+  position: relative;
+}
+
+  .img-title-small4 {
+  background-image: url('images/photo-panier1.jpg');
+  background-position: center;
+  height: 330px;
+  margin-top: 30px;
+  position: relative;
+}
+
+  .img-title-small5 {
+  background-image: url('images/photo-panier1.jpg');
+  background-position: center;
+  height: 330px;
+  margin-top: 30px;
+  position: relative;
+}
+
+  .img-title-small6 {
+  background-image: url('images/photo-panier1.jpg');
+  background-position: center;
+  height: 330px;
+  margin-top: 30px;
+  position: relative;
+}
 .carousel {
   margin: 30px 0;
 
@@ -141,3 +174,23 @@ h1, h2, h3 {
   font-weight: bold;
   letter-spacing: -2px;
 }
+
+.card-hover {
+  background-color: #ef946c;
+  position: absolute;
+  color: white;
+  opacity: 0;
+  transition : all 0.2s ease;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  padding: 30px 15px 15px 15px;
+
+}
+
+.card-hover:hover {
+  opacity: 0.8;
+}
+
+
