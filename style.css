@@ -35,6 +35,15 @@ h1, h2, h3 {
  flex-direction: column;
 }
 
+a {
+  color: #454372;
+}
+
+a:hover {
+  color: #ef946c;
+  text-decoration: none;
+}
+
 .menu-titles a {
   color: #454372;
   margin:0;
