@@ -35,11 +35,11 @@ h1, h2, h3 {
  flex-direction: column;
 }
 
-a {
+.menu-xs a {
   color: #454372;
 }
 
-a:hover {
+.menu-xs  a:hover {
   color: #ef946c;
   text-decoration: none;
 }
